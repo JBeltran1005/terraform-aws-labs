@@ -1,0 +1,13 @@
+# Directorios locales de proveedores de Terraform
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de estado locales y respaldos (el state activo vive en S3)
+*.tfstate
+*.tfstate.*
+
+# Variables sensibles y llaves privadas
+*.tfvars
+*.pem
+*.key
+.env
